@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "pcitD36niYue/BIZR4nq/OdGPg6+T7lBsLKyda+O0ovNAZrIxu5H1ZK4rCnIFWJIi0zAisKl83ZHEJSs9NC8qg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\meliska\\Desktop\\PS\\PS_47_Melis\\WelcomeExtended\\WelcomeExtended.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\meliska\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\meliska\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\meliska\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\meliska\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\meliska\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\meliska\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\meliska\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
