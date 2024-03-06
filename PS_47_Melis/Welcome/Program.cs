@@ -2,6 +2,7 @@
 using Welcome.Model;
 using Welcome.View;
 using Welcome.ViewModel;
+using Welcome.Others;
 
 namespace Welcome
 {
@@ -13,7 +14,7 @@ namespace Welcome
             user1.Name = "Mel";
             user1.Password = "123";
 
-            user1.Role = Others.UserRolesEnum.STUDENT;
+            user1.Role = UserRolesEnum.STUDENT;
             user1.FNumber = "121221011";
             user1.Email = "mel@gmail.com";
 

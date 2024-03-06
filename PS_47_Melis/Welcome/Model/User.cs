@@ -15,6 +15,8 @@ namespace Welcome.Model
         private UserRolesEnum role;
         private string fNumber;
         private string email;
+        private int _id;
+        private DateTime expires;
 
         public string Name
         {
@@ -25,7 +27,8 @@ namespace Welcome.Model
         public string Password
         {
             get { return password; }
-            set { password = HashPassword(value); }
+            set { password = value; }
+           
         }
 
         private string HashPassword(string password)
@@ -59,6 +62,18 @@ namespace Welcome.Model
         {
             get { return email; }
             set { email = value; }
+        }
+
+        public virtual int Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+
+        public DateTime Expires
+        {
+            get { return expires; }
+            set { expires = value; }
         }
 
     }

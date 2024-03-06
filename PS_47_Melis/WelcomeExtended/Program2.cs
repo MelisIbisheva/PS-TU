@@ -4,6 +4,8 @@ using Welcome.Others;
 using Welcome.ViewModel;
 using Welcome.View;
 using static WelcomeExtended.Others.Delegates;
+using WelcomeExtended.Data;
+using WelcomeExtended.Helpers;
 
 namespace WelcomeExtended
 {
@@ -13,19 +15,58 @@ namespace WelcomeExtended
         {
             try
             {
-                var user = new User
+                UserData userData = new UserData();
+
+                User studentUser = new User()
                 {
-                    Name = "John Smith",
-                    Password = "password123",
+                    Name = "Student",
+                    Password = "123",
                     Role = UserRolesEnum.STUDENT
                 };
+                userData.AddUser(studentUser);
 
-                var viewModel = new UserViewModel(user);
-                var view = new UserView(viewModel);
+                User studentUser2 = new User()
+                {
+                    Name = "Student2",
+                    Password = "123",
+                    Role = UserRolesEnum.STUDENT
+                };
+                userData.AddUser(studentUser2);
 
-                view.Display();
+                User teacherUser = new User()
+                {
+                    Name = "Teacher",
+                    Password = "1234",
+                    Role = UserRolesEnum.PROFESSOR
+                };
+                userData.AddUser(teacherUser);
 
-                view.DisplayError();
+                User adminUser = new User()
+                {
+                    Name = "Admin",
+                    Password = "12345",
+                    Role = UserRolesEnum.ADMIN
+                };
+                userData.AddUser(adminUser);
+
+                Console.Write("Enter name: ");
+                var name = Console.ReadLine();
+                Console.Write("Enter password: ");
+                var password = Console.ReadLine();
+
+                bool existUser = UserHelper.ValidateCredentials(userData, name, password);
+                User user1 = UserHelper.GetUser(userData, name, password);
+               
+
+                if (existUser == true)
+                {
+                    User user = UserHelper.GetUser(userData,name,password);
+                    Console.WriteLine(UserHelper.ToString(user));
+                }
+                else
+                {
+                    throw new Exception("User not found!");
+                }
             }
             catch (Exception e)
             {
