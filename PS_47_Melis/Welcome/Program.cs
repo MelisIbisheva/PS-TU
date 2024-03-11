@@ -18,12 +18,6 @@ namespace Welcome
             user1.FNumber = "121221011";
             user1.Email = "mel@gmail.com";
 
-            // Пример за проверка на парола
-            string inputPassword = "123";
-            bool isPasswordValid = user1.VerifyPassword(inputPassword);
-
-            Console.WriteLine("Valid password: " + isPasswordValid);
-
             UserViewModel uVM = new UserViewModel(user1);
             UserView userV = new UserView(uVM);
             userV.Display();

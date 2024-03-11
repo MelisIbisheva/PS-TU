@@ -14,21 +14,22 @@ namespace WelcomeExtended.Helpers
         public static string ToString(this User user)
         {
             return $"User name: {user.Name}\n" +
+                $"User password: {user.Password}\n" +
                 $"Faculty number: {user.FNumber}\n" +
                 $"Role: {user.Role}\n" +
                 $"Email: {user.Email}\n" +
-                $"Active status: {user.Expires}";
+                $"Expires: {user.Expires.ToString()}";
         }
 
         public static bool ValidateCredentials(this UserData userData, string name, string password)
         {
-            if (name == null)
+            if (name == null || name == "")
             {
-                throw new Exception($"The name field cannot be empty");
+                throw new Exception($"The name cannot be empty");
             }
-            else if (password == null)
+            else if (password == null || name=="")
             {
-                throw new Exception($"The password field cannot be empty");
+                throw new Exception($"The password cannot be empty");
             }
             else
             {

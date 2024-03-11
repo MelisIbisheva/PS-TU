@@ -58,5 +58,41 @@ namespace WelcomeExtended.Loggers
 
             
         }
+
+        public void PrintLoggedMessages()
+        {
+            Console.WriteLine("All logged messages:");
+            foreach (var message in _logMessages.Values)
+            {
+                Console.WriteLine(message);
+            }
+        }
+
+        public void PrintByEventId(int eventId)
+        {
+            if (_logMessages.ContainsKey(eventId))
+            {
+                var message = _logMessages[eventId];
+                Console.WriteLine($"Message for EventId {eventId}: {message}");
+            }
+            else
+            {
+                Console.WriteLine($"No message found for EventId {eventId}");
+            }
+        }
+
+        public void RemoveEventById(int eventId)
+        {
+            if (_logMessages.ContainsKey(eventId))
+            {
+                _logMessages.Remove(eventId, out _);
+                Console.WriteLine($"EventId {eventId} removed from the log.");
+            }
+            else
+            {
+                Console.WriteLine($"EventId {eventId} not found in the log.");
+            }
+        }
+
     }
 }

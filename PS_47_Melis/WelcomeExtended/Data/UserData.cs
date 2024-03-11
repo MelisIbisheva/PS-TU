@@ -69,11 +69,11 @@ namespace WelcomeExtended.Data
             
         }
 
-        public void setActive(string name, DateTime dateTime)
+        public void setActive(string name, DateTime time)
         {
             foreach (var user in _users)
                 if (user.Name == name)
-                    user.Expires = dateTime;
+                    user.Expires = time;
         }
 
         public void AsssignUserRole(string name, UserRolesEnum role) {

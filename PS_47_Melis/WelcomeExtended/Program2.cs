@@ -37,7 +37,9 @@ namespace WelcomeExtended
                 {
                     Name = "Teacher",
                     Password = "1234",
-                    Role = UserRolesEnum.PROFESSOR
+                    Role = UserRolesEnum.PROFESSOR,
+                    Expires = DateTime.Now.AddDays(1)
+                    
                 };
                 userData.AddUser(teacherUser);
 
@@ -58,7 +60,7 @@ namespace WelcomeExtended
                 User user1 = UserHelper.GetUser(userData, name, password);
                
 
-                if (existUser == true)
+                if (existUser)
                 {
                     User user = UserHelper.GetUser(userData,name,password);
                     Console.WriteLine(UserHelper.ToString(user));
@@ -74,13 +76,12 @@ namespace WelcomeExtended
                 log(e.Message);
 
             }
+          
             finally
             {
                 Console.WriteLine("Executed in any case!");
             }
         }
-
-
 
     }
 }

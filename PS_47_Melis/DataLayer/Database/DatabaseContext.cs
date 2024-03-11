@@ -23,6 +23,10 @@ namespace DataLayer.Database
         {
             modelBuilder.Entity<DatabaseUser>().Property(e => e.Id).ValueGeneratedOnAdd();
 
+            
+
+            modelBuilder.Entity<DatabaseUser>().Property(e => e.Id).ValueGeneratedOnAdd();
+
             //create a user
             var user = new DatabaseUser()
             {

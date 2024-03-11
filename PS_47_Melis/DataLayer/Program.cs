@@ -19,17 +19,38 @@ namespace DataLayer
                 context.Database.EnsureCreated();
                 context.Add<DatabaseUser>(new DatabaseUser()
                 {
-                    Name = "user",
-                    Password = "password",
+                    Name = "Melis",
+                    Password = "1234",
                     Expires = DateTime.Now,
                     Role = UserRolesEnum.STUDENT
 
                 }) ;
                 context.SaveChanges();
                 var users = context.Users.ToList();
+
+                Console.WriteLine("Enter name: ");
+                string enteredName = Console.ReadLine();
+                Console.WriteLine("Enter password: ");
+                string enteredPassword = Console.ReadLine();
+
+                var isValidUser = context.Users.Any(user =>
+                user.Name.Equals(enteredName, StringComparison.OrdinalIgnoreCase) &&
+                user.Password == enteredPassword);
+
+                if (isValidUser)
+                {
+                    Console.WriteLine("Valid user!");
+                }
+                else
+                {
+                    Console.WriteLine("Invalid data!");
+                }
+
+
                 Console.ReadKey();
 
             }
+
         }
     }
 }
