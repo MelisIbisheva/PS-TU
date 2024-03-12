@@ -21,7 +21,10 @@ namespace WelcomeExtended
                 {
                     Name = "Student",
                     Password = "123",
-                    Role = UserRolesEnum.STUDENT
+                    Role = UserRolesEnum.STUDENT,
+                    FNumber = "121221034",
+                    Email = "student@gmail.com",
+                    Expires = DateTime.Now.AddYears(1)
                 };
                 userData.AddUser(studentUser);
 
@@ -29,7 +32,10 @@ namespace WelcomeExtended
                 {
                     Name = "Student2",
                     Password = "123",
-                    Role = UserRolesEnum.STUDENT
+                    Role = UserRolesEnum.STUDENT,
+                    FNumber = "121221024",
+                    Email = "student2@gmail.com",
+                    Expires = DateTime.Now.AddYears(3)
                 };
                 userData.AddUser(studentUser2);
 
@@ -38,8 +44,9 @@ namespace WelcomeExtended
                     Name = "Teacher",
                     Password = "1234",
                     Role = UserRolesEnum.PROFESSOR,
-                    Expires = DateTime.Now.AddDays(1)
-                    
+                    Email = "student@gmail.com",
+                    Expires = DateTime.Now.AddYears(9)
+
                 };
                 userData.AddUser(teacherUser);
 
@@ -47,7 +54,9 @@ namespace WelcomeExtended
                 {
                     Name = "Admin",
                     Password = "12345",
-                    Role = UserRolesEnum.ADMIN
+                    Role = UserRolesEnum.ADMIN,
+                    Email = "admin@gmail.com",
+                    Expires = DateTime.Now.AddYears(9)
                 };
                 userData.AddUser(adminUser);
 

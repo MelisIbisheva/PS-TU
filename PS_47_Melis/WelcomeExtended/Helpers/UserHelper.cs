@@ -9,14 +9,14 @@ using WelcomeExtended.Data;
 
 namespace WelcomeExtended.Helpers
 {
-    static class UserHelper
+    public static class UserHelper
     {
         public static string ToString(this User user)
         {
             return $"User name: {user.Name}\n" +
                 $"User password: {user.Password}\n" +
-                $"Faculty number: {user.FNumber}\n" +
-                $"Role: {user.Role}\n" +
+                $"Faculty number: {user.Role}\n" +
+                $"Role: {user.FNumber}\n" +
                 $"Email: {user.Email}\n" +
                 $"Expires: {user.Expires.ToString()}";
         }

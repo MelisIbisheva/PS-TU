@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace WelcomeExtended.Loggers
 {
-    internal class FileLogger : ILogger
+    public class FileLogger : ILogger
     {
      
         private readonly string _filePath;

@@ -8,7 +8,7 @@ using Welcome.Others;
 
 namespace WelcomeExtended.Data
 {
-    internal class UserData
+    public class UserData
     {
         private List<User> _users;
         private int _nextId;

@@ -10,12 +10,12 @@ namespace Welcome.Model
 {
     public class User
     {
+        private int _id;
         private string name;
         private string password;
         private UserRolesEnum role;
         private string fNumber;
         private string email;
-        private int _id;
         private DateTime expires;
 
         public string Name
@@ -24,7 +24,7 @@ namespace Welcome.Model
             set { name = value; }
         }
 
-        public string Password
+        public virtual string Password
         {
             get { return password; }
             set { password = value; }

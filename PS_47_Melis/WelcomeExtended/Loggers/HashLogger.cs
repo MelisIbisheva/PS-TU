@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace WelcomeExtended.Loggers
 {
-    internal class HashLogger : ILogger
+    public class HashLogger : ILogger
     {
         private readonly ConcurrentDictionary<int, string> _logMessages;
         private readonly string _name;
