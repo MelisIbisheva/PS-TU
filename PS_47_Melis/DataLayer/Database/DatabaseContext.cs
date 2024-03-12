@@ -6,11 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 using DataLayer.Model;
 using Welcome.Others;
+using Welcome.Model;
 
 namespace DataLayer.Database
 {
-    internal class DatabaseContext : DbContext
+     public class DatabaseContext : DbContext
     {
+        public DbSet<DatabaseUser> Users { get; set; }
+        public DbSet<DatabaseLog> Logs { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string solutionFolder = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
@@ -34,7 +37,10 @@ namespace DataLayer.Database
                 Name = "John Doe",
                 Password = "1234",
                 Role = UserRolesEnum.ADMIN,
+                FNumber = "121221034",
+                Email = "john09@gmail.com",
                 Expires = DateTime.Now.AddYears(10)
+                
             };
 
             modelBuilder.Entity<DatabaseUser>()
@@ -46,6 +52,8 @@ namespace DataLayer.Database
                 Name = "Aleks Smith",
                 Password = "12345",
                 Role = UserRolesEnum.STUDENT,
+                FNumber = "121221035",
+                Email = "aleks21@gmail.com",
                 Expires = DateTime.Now.AddYears(4)
             };
 
@@ -58,6 +66,8 @@ namespace DataLayer.Database
                 Name = "Emily Jameson",
                 Password = "123",
                 Role = UserRolesEnum.PROFESSOR,
+                FNumber = "121221054",
+                Email = "emily12@gmail.com",
                 Expires = DateTime.Now.AddYears(8)
             };
 
@@ -65,7 +75,7 @@ namespace DataLayer.Database
                 .HasData(user3);
         }
 
-        public DbSet<DatabaseUser> Users { get; set; }
+        
 
 
     }
