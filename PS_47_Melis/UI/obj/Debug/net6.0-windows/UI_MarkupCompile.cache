@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\meliska\Desktop\PS\PS_47_Melis\UI\obj\Debug\net6.0-windows\
+D:\github_repository_clone\PS-TU\PS_47_Melis\UI\obj\Debug\net6.0-windows\
 UI
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\meliska\Desktop\PS\PS_47_Melis\UI\App.xaml
+D:\github_repository_clone\PS-TU\PS_47_Melis\UI\App.xaml
 61970629788
 
 9-1478265092
-2191214929799
+219296265689
 Components\LogsList.xaml;Components\StudentsList.xaml;Windows\AddUserWindow.xaml;Windows\LogsWindow.xaml;Windows\MainWindow.xaml;Windows\RemoveUserWindow.xaml;
 
 False

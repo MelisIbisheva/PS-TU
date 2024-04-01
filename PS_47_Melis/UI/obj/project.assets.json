@@ -3484,11 +3484,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\meliska\\Desktop\\PS\\PS_47_Melis\\UI\\UI.csproj",
+      "projectUniqueName": "D:\\github_repository_clone\\PS-TU\\PS_47_Melis\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Users\\meliska\\Desktop\\PS\\PS_47_Melis\\UI\\UI.csproj",
+      "projectPath": "D:\\github_repository_clone\\PS-TU\\PS_47_Melis\\UI\\UI.csproj",
       "packagesPath": "C:\\Users\\meliska\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\meliska\\Desktop\\PS\\PS_47_Melis\\UI\\obj\\",
+      "outputPath": "D:\\github_repository_clone\\PS-TU\\PS_47_Melis\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3509,8 +3509,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\meliska\\Desktop\\PS\\PS_47_Melis\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "C:\\Users\\meliska\\Desktop\\PS\\PS_47_Melis\\DataLayer\\DataLayer.csproj"
+            "D:\\github_repository_clone\\PS-TU\\PS_47_Melis\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "D:\\github_repository_clone\\PS-TU\\PS_47_Melis\\DataLayer\\DataLayer.csproj"
             }
           }
         }

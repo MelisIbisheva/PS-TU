@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\meliska\\Desktop\\PS\\PS_47_Melis\\Welcome\\Welcome.csproj",
+      "projectUniqueName": "D:\\github_repository_clone\\PS-TU\\PS_47_Melis\\Welcome\\Welcome.csproj",
       "projectName": "Welcome",
-      "projectPath": "C:\\Users\\meliska\\Desktop\\PS\\PS_47_Melis\\Welcome\\Welcome.csproj",
+      "projectPath": "D:\\github_repository_clone\\PS-TU\\PS_47_Melis\\Welcome\\Welcome.csproj",
       "packagesPath": "C:\\Users\\meliska\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\meliska\\Desktop\\PS\\PS_47_Melis\\Welcome\\obj\\",
+      "outputPath": "D:\\github_repository_clone\\PS-TU\\PS_47_Melis\\Welcome\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

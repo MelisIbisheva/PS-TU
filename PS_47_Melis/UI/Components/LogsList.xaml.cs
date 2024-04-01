@@ -35,5 +35,24 @@ namespace UI.Components
         {
             MessageBox.Show(((DatabaseLog)logs.SelectedItem).Message);
         }
+
+        private void FilterByID_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (int.TryParse(filterById.Text, out int id))
+            {
+
+                using (var ctx = new DatabaseContext())
+                {
+                    var filteredRecords = ctx.Logs.Where(log => log.Id == id).ToList();
+                    logs.DataContext = filteredRecords;
+                }
+            }
+            else
+            {
+
+                MessageBox.Show("Invalid ID. Please enter a valid integer ID.");
+            }
+        }
     }
 }

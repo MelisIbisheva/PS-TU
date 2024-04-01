@@ -11,7 +11,13 @@
             <DataGrid.Columns>
                 <DataGridTextColumn Header="#" IsReadOnly="True" Binding="{Binding Id}"/>
                 <DataGridTextColumn Header="Name" IsReadOnly="True" Binding="{Binding Message}"/>
+                <DataGridTextColumn Header="Id" IsReadOnly="True" Binding="{Binding Id}"/>
             </DataGrid.Columns>
         </DataGrid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="200">
+            <TextBlock>Id</TextBlock>
+            <TextBox x:Name="filterById"></TextBox>
+            <Button Content="Filter" Click="FilterByID_Click" Height="20" Width="50"/>
+        </StackPanel>
     </Grid>
 </UserControl>

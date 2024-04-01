@@ -12,3 +12,17 @@ C:\Users\meliska\Desktop\PS\PS_47_Melis\Welcome\obj\Debug\net6.0\refint\Welcome.
 C:\Users\meliska\Desktop\PS\PS_47_Melis\Welcome\obj\Debug\net6.0\Welcome.pdb
 C:\Users\meliska\Desktop\PS\PS_47_Melis\Welcome\obj\Debug\net6.0\Welcome.genruntimeconfig.cache
 C:\Users\meliska\Desktop\PS\PS_47_Melis\Welcome\obj\Debug\net6.0\ref\Welcome.dll
+D:\github_repository_clone\PS-TU\PS_47_Melis\Welcome\bin\Debug\net6.0\Welcome.exe
+D:\github_repository_clone\PS-TU\PS_47_Melis\Welcome\bin\Debug\net6.0\Welcome.deps.json
+D:\github_repository_clone\PS-TU\PS_47_Melis\Welcome\bin\Debug\net6.0\Welcome.runtimeconfig.json
+D:\github_repository_clone\PS-TU\PS_47_Melis\Welcome\bin\Debug\net6.0\Welcome.dll
+D:\github_repository_clone\PS-TU\PS_47_Melis\Welcome\bin\Debug\net6.0\Welcome.pdb
+D:\github_repository_clone\PS-TU\PS_47_Melis\Welcome\obj\Debug\net6.0\Welcome.GeneratedMSBuildEditorConfig.editorconfig
+D:\github_repository_clone\PS-TU\PS_47_Melis\Welcome\obj\Debug\net6.0\Welcome.AssemblyInfoInputs.cache
+D:\github_repository_clone\PS-TU\PS_47_Melis\Welcome\obj\Debug\net6.0\Welcome.AssemblyInfo.cs
+D:\github_repository_clone\PS-TU\PS_47_Melis\Welcome\obj\Debug\net6.0\Welcome.csproj.CoreCompileInputs.cache
+D:\github_repository_clone\PS-TU\PS_47_Melis\Welcome\obj\Debug\net6.0\Welcome.dll
+D:\github_repository_clone\PS-TU\PS_47_Melis\Welcome\obj\Debug\net6.0\refint\Welcome.dll
+D:\github_repository_clone\PS-TU\PS_47_Melis\Welcome\obj\Debug\net6.0\Welcome.pdb
+D:\github_repository_clone\PS-TU\PS_47_Melis\Welcome\obj\Debug\net6.0\Welcome.genruntimeconfig.cache
+D:\github_repository_clone\PS-TU\PS_47_Melis\Welcome\obj\Debug\net6.0\ref\Welcome.dll
