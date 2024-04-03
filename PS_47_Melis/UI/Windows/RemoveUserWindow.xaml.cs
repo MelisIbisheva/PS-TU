@@ -35,8 +35,14 @@ namespace UI.Windows
                 string rUname = tbN.Text;
                 dbContext.Remove<DatabaseUser>(dbContext.Users.Where(x => x.Name == rUname).First());
                 dbContext.SaveChanges();
-                
+                dbContext.Logs.Add(new DatabaseLog()
+                {
+                    Message = $"{tbN.Text} Deleted!",
+                });
+                dbContext.SaveChanges();
+
             }
+
         }
     }
 }
