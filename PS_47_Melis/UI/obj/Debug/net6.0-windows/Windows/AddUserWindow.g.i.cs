@@ -93,7 +93,7 @@ namespace UI.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/UI;component/windows/adduserwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/UI;V1.0.0.0;component/windows/adduserwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\AddUserWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
