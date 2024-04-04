@@ -48,7 +48,7 @@ namespace UI_Updated_Version.View.Windows
                         dbContext.Logs.Add(new DatabaseLog()
                         {
                             Message = $"{tbN.Text} Created!",
-                        });
+                        }); ;
                         dbContext.SaveChanges();
                         Close();
                     }

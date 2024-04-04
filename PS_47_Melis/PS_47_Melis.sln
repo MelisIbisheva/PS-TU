@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer", "DataLayer\Data
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UI", "UI\UI.csproj", "{B2152B0C-C800-466C-839B-BBEA3B6E3E9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI_Updated_Version", "UI_Updated_Version\UI_Updated_Version.csproj", "{76523B4E-D370-447B-BF73-A42B4A0EA013}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UI_Updated_Version", "UI_Updated_Version\UI_Updated_Version.csproj", "{76523B4E-D370-447B-BF73-A42B4A0EA013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIMVVM", "UIMVVM\UIMVVM.csproj", "{4E991425-78A6-4755-AD00-1AAB291CF49C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{76523B4E-D370-447B-BF73-A42B4A0EA013}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76523B4E-D370-447B-BF73-A42B4A0EA013}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76523B4E-D370-447B-BF73-A42B4A0EA013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E991425-78A6-4755-AD00-1AAB291CF49C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E991425-78A6-4755-AD00-1AAB291CF49C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E991425-78A6-4755-AD00-1AAB291CF49C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E991425-78A6-4755-AD00-1AAB291CF49C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

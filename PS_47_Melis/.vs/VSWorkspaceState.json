@@ -1,12 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\UI",
-    "\\UI\\Components",
-    "\\UI_Updated_Version",
-    "\\UI_Updated_Version\\View",
-    "\\UI_Updated_Version\\View\\Windows"
+    "\\DataLayer",
+    "\\DataLayer\\Model"
   ],
-  "SelectedNode": "\\UI_Updated_Version\\View\\Windows\\LogsWindow.xaml",
+  "SelectedNode": "\\UI_Updated_Version",
   "PreviewInSolutionExplorer": false
 }
