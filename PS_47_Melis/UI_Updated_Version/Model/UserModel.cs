@@ -18,8 +18,6 @@ namespace UI_Updated_Version.Model
 
         private readonly DatabaseContext dbContext;
 
-        public ObservableCollection<DateTime> LogTimeStamp { get; set; }
-
         public string LogDatesAsString { get; set; }
 
         public UserModel()
