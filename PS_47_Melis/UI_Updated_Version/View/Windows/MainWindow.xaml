@@ -10,22 +10,22 @@
         <vm:MainWindowViewModel/>
     </Window.DataContext>
 
-    <Grid Margin="0,0,-93,-107" RenderTransformOrigin="0.498,0.317">
+    <Grid Margin="-93,-20,0,-87" RenderTransformOrigin="0.498,0.317">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="485*"/>
-            <ColumnDefinition Width="408*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="201*"/>
-            <RowDefinition Height="340*"/>
+            <RowDefinition Height="421*"/>
+            <RowDefinition Height="120*"/>
         </Grid.RowDefinitions>
 
 
 
-        <Button Content="User information" Name="btnGoToUserInformation" Click="btnGoToUserInformation_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Height="48" Width="117" Margin="330,10,0,0" RenderTransformOrigin="-0.064,0.45"/>
-        <Button Content="Add user" Name="btnAddUser" Click="btnAddUser_Click" HorizontalAlignment="Left" VerticalAlignment="Center" Height="45" Width="117" Margin="331,0,0,0"/>
-        <Button Content="Remove" Name="btnRemove" Click="btnRemove_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Height="47" Width="117" Margin="331,144,0,0" RenderTransformOrigin="2.37,0.324"/>
-        <Button Content="Logs" Name="btnLogs" Click="btnLogs_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45" Width="117" Margin="331,10,0,0" Grid.Row="1"/>
+        <Button Content="User information" Name="btnGoToUserInformation" Click="btnGoToUserInformation_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Height="48" Width="118" Margin="446,54,0,0" RenderTransformOrigin="-0.064,0.45"/>
+        <Button Content="Add user" Name="btnAddUser" Click="btnAddUser_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Height="55" Width="116" Margin="448,166,0,0"/>
+        <Button Content="Remove" Name="btnRemove" Click="btnRemove_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Height="54" Width="118" Margin="446,107,0,0" RenderTransformOrigin="2.37,0.324"/>
+        <Button Content="Logs" Name="btnLogs" Click="btnLogs_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45" Width="118" Margin="447,226,0,0"/>
 
 
 
