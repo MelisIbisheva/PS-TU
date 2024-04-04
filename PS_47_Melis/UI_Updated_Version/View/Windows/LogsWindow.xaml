@@ -17,7 +17,7 @@
         <DataGrid Name="loggs" ItemsSource="{Binding Loggers}" AutoGenerateColumns="False" Grid.ColumnSpan="2">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Id" IsReadOnly="True" Binding="{Binding Id}"/>
-                <DataGridTextColumn Header="Name" IsReadOnly="True" Binding="{Binding Message}" Width="150"/>
+                <DataGridTextColumn Header="Log" IsReadOnly="True" Binding="{Binding Message}" Width="150"/>
             </DataGrid.Columns>
             
         </DataGrid>

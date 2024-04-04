@@ -39,6 +39,7 @@ namespace UI_Updated_Version.View.Windows
                     Message = $"{tbN.Text} Deleted!",
                 });
                 dbContext.SaveChanges();
+                Close();
 
             }
 
